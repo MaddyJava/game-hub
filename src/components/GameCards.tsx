@@ -10,7 +10,7 @@ interface Prop {
 }
 const GameCards = ({ game }: Prop) => {
   return (
-    <Card width="300px">
+    <Card>
       <Image src={getCustomImage(game.background_image)} />
       <CardBody>
         <Heading fontSize="lg">{game.name}</Heading>
